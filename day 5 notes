@@ -1,0 +1,55 @@
+git commit
+	• -m <message>: Specifies a commit message.
+	• -a: Stages all modified and deleted files before committing.
+	• --amend: Amends the previous commit with new changes.
+	• --no-verify: Skips pre-commit and commit-msg hooks.
+git branch
+	• -a: Lists both local and remote branches.
+	• -d <branch>: Deletes a branch (safe delete).
+	• -D <branch>: Force deletes a branch (even if unmerged).
+	• -r: Lists only remote branches.
+git checkout
+	• -b <branch>: Creates and checks out a new branch.
+	• -f: Forces the checkout, discarding local changes.
+	• --orphan <branch>: Creates a new branch with no commit history.
+git fetch
+	• -p: Prunes (removes) any remote-tracking references that no longer exist on the remote.
+	• --all: Fetches all remotes.
+git pull
+	• --rebase: Rebase the current branch on top of the upstream branch after fetching.
+	• --no-commit: Fetch and merge without committing the changes.
+git push
+	• -u: Sets the upstream branch for the current branch.
+	• --force: Forces the push, potentially overwriting changes on the remote.
+	• --tags: Pushes all tags.
+git status
+	• -s: Shows a short output format (also known as "short status").
+	• -b: Shows the branch and tracking information.
+
+Tags in github
+
+• latest: This tag is used to denote the most recent stable release of the project. It is commonly used in package management to indicate the latest version.
+• v1.0.0, v2.1.4, etc.: Version tags are used to mark specific points in the repository's history that correspond to a release version. The tag often follows Semantic Versioning (SemVer) format.
+• hotfix: This tag indicates that the changes in the commit or branch are intended to fix a critical issue that needs to be addressed immediately.
+• feature: This tag is used to mark branches or commits that introduce new features to the project.
+• bugfix: This tag is used for branches or commits that resolve bugs or issues within the codebase.
+• deprecated: This tag is used to indicate that a particular feature, function, or API is outdated and should not be used. It may be removed in future releases.
+• experimental: This tag denotes that the branch or commit includes experimental changes that are not yet stable or ready for production use.
+• stable: This tag signifies that the branch or release is stable and ready for production use.
+• draft: This tag is used to indicate that the pull request or release is still in draft status and is not yet ready for merging or public release.
+• release: This tag is used to mark a specific commit as a formal release of the project.
+• breaking-change: This tag indicates that the changes introduced will break backward compatibility with previous versions.
+• security: This tag is used to denote that the changes or commits are related to security improvements or fixes.
+• WIP (Work In Progress): This tag is used to indicate that the branch or pull request is still being worked on and is not yet complete.
+• docs: This tag is used to denote commits or changes related to documentation updates.
+• enhancement: This tag is used to identify changes that improve the existing features or functionality of the project without adding new features.
+• test: This tag is used for commits or branches related to testing, including adding new tests or modifying existing ones.
+• performance: This tag is used to mark changes that improve the performance of the application.
+• refactor: This tag is used to denote code changes that improve the structure or readability of the code without altering its external behavior.
+• rollback: This tag indicates that the changes in the branch or commit are intended to revert previous changes.
+• priority: high, priority: low: These tags are used to indicate the importance or urgency of an issue or feature request.
+• needs-review: This tag is used to signal that the code or pull request requires review by others before it can be merged.
+• wontfix: This tag is used to indicate that an issue or request will not be addressed or fixed.
+• invalid: This tag is used to indicate that an issue or request is invalid or does not meet the project's guidelines or standards.
+• question: This tag is used for issues or pull requests that are seeking clarification or answers.
+
